@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./UTOPIA-milestone3-styles.css" />
+    <title>utopia-homepage</title>
+  </head>
+  <body>
+    <div class="background">
+      <container class="header">
+        <h1>utopia.</h1>
+        <ul class="navigation">
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Blog</a></li>
+        </ul>
+        <button>Try for free</button>
+      </container>
+      <section class="main-banner">
+        <h2>Discover our meditation services</h2>
+        <p>Feel on top of the world.</p>
+      </section>
+    </div>
+    <div class="about-head">
+      <h2>Mindfulness and meditation for everyone</h2>
+    </div>
+    <section class="about-section">
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur sit
+        accusamus corrupti, dolore laudantium quisquam quae harum sunt
+        asperiores, tempore soluta aspernatur ullam quis expedita quas sequi
+        molestias cupiditate incidunt. Lorem ipsum dolor sit amet, consectetur
+        adipisicing elit. Ullam optio natus deleniti doloribus, recusandae eaque
+        hic aliquam reprehenderit molestiae amet tempore error ipsum veniam sit
+        ipsa quas, aliquid libero itaque. Lorem ipsum dolor, sit amet
+        consectetur adipisicing elit. Ab vitae quos cum laboriosam quam! Quidem,
+        praesentium? Officia, reprehenderit consectetur? Nesciunt, qui repellat
+        sit delectus aliquid necessitatibus obcaecati suscipit exercitationem
+        molestiae.
+      </p>
+      <iframe
+        src="https://www.youtube.com/embed/inpok4MKVLM"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+        >Video not supported</iframe
+      >
+    </section>
+    <section class="offers">
+      <div class="first-offer" href="#">Sleep</div>
+      <div class="second-offer" href="#">Stress</div>
+      <div class="third-offer" href="#">Mindfulness</div>
+    </section>
+    <container class="box-1">
+      <h2>Our price plans</h2>
+      <table id="prices">
+        <thead>
+          <tr>
+            <th></th>
+            <th>Free</th>
+            <th>Basic</th>
+            <th>Pro</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th>Service 1</th>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+          </tr>
+          <tr>
+            <th>Service 2</th>
+            <td>No</td>
+            <td>Yes</td>
+            <td>Yes</td>
+          </tr>
+          <tr>
+            <th>Service 3</th>
+            <td>No</td>
+            <td>No</td>
+            <td>Yes</td>
+          </tr>
+          <tr>
+            <th>Price</th>
+            <td>Free</td>
+            <td>£5</td>
+            <td>£15</td>
+          </tr>
+        </tbody>
+      </table>
+    </container>
+    <container class="backdrop">
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam doloribus voluptates velit qui et ad laudantium odio maxime corporis, eum distinctio ipsum nesciunt error ab dignissimos delectus earum rem ipsa. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum, quos illum. Magnam a aliquid earum reiciendis id rerum, molestiae debitis eum, perspiciatis possimus, ducimus minima! Eaque libero tempore itaque pariatur?</p>
+    <div class="box-2">
+      <form class="form-1" action="/example.html" method="POST">
+        <h2>Create an account</h2>
+        <hr />
+        <section class="full-name">
+          <label for="name">Name:</label></br>
+          <input type="text" name="name" id="name" />
+        </section>
+    
+        <section class="phone">
+          <label for="phone">Phone number:</label></br>
+          <input
+            type="text"
+            name="phone"
+            id="phone"
+            required
+            pattern="[0-9]{11,14}"
+          />
+        </section>
+      
+        <section class="email">
+          <label for="email">Email:</label></br>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="please enter your email here"
+            required
+          />
+        </section>
+     
+        <section class="password">
+          <label for="password">Password:</label></br>
+          <input type="password" name="password" required minlength="8" />
+        </section>
+       
+        <section class="preference">
+          <label for="preference">What are your contact preference?</label></br>
+          <select name="preference" id="preference">
+            <option value="text">Text</option>
+            <option value="phone">Phone</option>
+            <option value="email">Email</option>
+          </select>
+        </section>
+        <section class="submission">
+          <input type="submit" value="Submit" />
+        </section>
+      </form>
+      </div>
+    </container>
+    <container class="backdrop-2">
+        <form class="form-2" action="/example.html" method="POST">
+        <h2>Tell us more about you!</h2>
+        <hr />
+        <section class="services">
+          <span>What services are you interested in?</span>
+          <br />
+          <input type="checkbox" name="service" id="online" value="online" />
+          <label for="online">Online tutorials</label> </br>        
+          <input
+            type="checkbox"
+            name="service"
+            id="meditation"
+            value="meditation"
+          />
+          <label for="meditation">Meditation guidance</label></br>   
+          <input
+            type="checkbox"
+            name="service"
+            id="mental-health"
+            value="mental-health"
+          />
+          <label for="mental-health">Mental health support</label> </br>   
+        </section>
+        
+        <section class="meditate">
+          <label for="amount"
+            >How many many times a week do you practice mindfulness?</label
+          ></br>
+          <input type="number" name="amount" id="amount" min="0" max="20" />
+        </section>
+       
+        <section class="consent">
+          <span>Would you like to hear more from us?</span>
+          <br />
+          <input type="radio" name="consent" id="yes" value="yes" />
+          <label for="yes">Yes</label>
+          <input type="radio" name="consent" id="no" value="yes" />
+          <label for="no">No</label>
+        </section>
+        <section class="experience">
+          <label for="experience">How experienced are you? </label>
+          <br />
+          <span>Not very</span>
+          <input
+            type="range"
+            name="experience"
+            id="experience"
+            value="3"
+            min="1"
+            max="5"
+          />
+          <span>I'm a pro!</span>
+        </section>
+        <section class="extra-info">
+          <label for="extra">Anything else you want to add?</label>
+          <br />
+          <textarea id="extra" name="extra" rows="3" cols="40"></textarea>
+        </section>
+        <section class="submission">
+          <input type="submit" value="Submit" />
+        </section>
+      </form>
+      </container>
+    <footer>Copyright- UTOPIA</footer>
+  </body>
+</html>
